@@ -27,7 +27,7 @@ body {
     }
 }
 
-.center-block {
+.content-body {
 
     @media (--mobile) {
         min-height: 100%;
@@ -39,7 +39,67 @@ body {
         left: 0;
         z-index: 1;
     }
+
+    @media (--at-least-tablet) {
+        position: relative;
+        top: 26px;
+    }
+
+
 }
+
+.show-case {
+    width: 100%;
+    min-height: 600px;
+    opacity: 1;
+    position: relative;
+    background-image: url("../images/flower-lrg.jpg");
+    background-color: rgba(0, 0, 0, 0);
+    background-size: 100% 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.our-mission {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    h2 {
+        margin: 0;
+        font-size: 90px;
+        font-weight: 400;
+        text-align: center;
+        color: #fff;
+        opacity: 0.6;
+    }
+
+    h4 {
+        color: blue;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0;
+    }
+
+    @media (--at-least-tablet) {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    @media (--at-least-laptop) {
+        width: 1024px;
+        padding-top: 200px;
+    }
+
+    @media (--at-least-desktop) {
+        width: 1280px;
+    }
+}
+
+
 
 
 

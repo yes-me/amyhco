@@ -2,7 +2,7 @@
 /****************************** Media Grid *****************************/
 
 .media-grid {
-    width: 100vw;
+    width: 100%;
     margin-left: 0;
     /*font-family: 'Antenna', 'Helvetica Neue', Arial, sans-serif;*/
     font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
