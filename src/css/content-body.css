@@ -53,12 +53,12 @@ body {
     min-height: 600px;
     opacity: 1;
     position: relative;
-    background-image: url("../images/flower-lrg.jpg");
+    background-image: url("../images/light-house-lrg.jpeg");
     background-color: rgba(0, 0, 0, 0);
     background-size: 100% 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    margin-bottom: 25px;
+    margin-bottom: 60px;
 }
 
 .our-mission {
@@ -73,15 +73,14 @@ body {
         font-weight: 400;
         text-align: center;
         color: #fff;
-        opacity: 0.6;
     }
 
     h4 {
-        color: blue;
+        color: #515151;
         font-size: 18px;
         font-weight: 400;
         text-align: center;
-        margin: 0;
+        margin: 10px 0 50px;
     }
 
     @media (--at-least-tablet) {
@@ -99,6 +98,76 @@ body {
     }
 }
 
+.button {
+    background: none;
+    background-color: #199cd8;
+    background-clip: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    outline: none;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+    display: inline-block;
+    zoom: 1;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.action-button {
+
+    width: 450px;
+    margin: 0 auto;
+
+    .left,
+    .right {
+        text-decoration: none;
+    }
+
+    .left {
+        margin-right: 110px;
+        background-color: #E87E04;
+    }
+
+    .right {
+        float: right;
+        background-color: rgba( 255, 255, 255, 0 );
+        border: 1px solid #ffffff;
+    }
+}
+
+.media-grid-link {
+    text-align: center;
+
+    .button {
+        margin: 0 auto;
+    }
+    .view-service {
+        width: 150px;
+    }
+    .view-work {
+        width: 120px;
+    }
+    .contact-us {
+        width: 130px;
+    }
+}
+
+.media-grid-headline {
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+}
+.media-grid-text {
+    line-height: 25px;
+    font-size: 14px;
+}
 
 
 
