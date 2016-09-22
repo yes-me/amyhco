@@ -41,8 +41,10 @@ body {
     }
 
     @media (--at-least-tablet) {
+
         position: relative;
-        top: 26px;
+        top: 46px;
+        margin-bottom: 46px;
     }
 
 
@@ -51,15 +53,10 @@ body {
 
 
 
-.show-case {
+.home-page .show-case {
 
-    &.home-page {
-         background-image: url("../images/light-house-lrg.jpeg");
-    }
+    background-image: url("../images/light-house-lrg.jpeg");
 
-    &.service-page {
-         background-image: url("../images/night-city-lrg.jpeg");
-    }
     width: 100%;
     min-height: 600px;
     opacity: 1;
@@ -96,11 +93,12 @@ body {
     @media (--at-least-tablet) {
         width: 768px;
         margin: 0 auto;
+        padding-top: 200px;
     }
 
     @media (--at-least-laptop) {
         width: 1024px;
-        padding-top: 200px;
+
     }
 
     @media (--at-least-desktop) {

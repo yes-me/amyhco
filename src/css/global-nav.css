@@ -20,6 +20,7 @@
     pointer-events: auto;
     letter-spacing: normal;
     z-index: 10;
+    overflow-y: scroll;
 
     .logo {
         width: 138px;
@@ -119,7 +120,7 @@
     }
 
     /* Make the Magic Happen */
-    .nav-trigger + label, .center-block {
+    .nav-trigger + label, .content-body {
         transition: left 0.2s;
     }
 
@@ -127,9 +128,10 @@
         left: 215px;
     }
 
-    .nav-trigger:checked ~ .center-block {
+    .nav-trigger:checked ~ .content-body {
         left: 200px;
         box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+        position: fixed;
     }
 
     .globalnav {

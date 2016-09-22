@@ -17,91 +17,202 @@
 
 <body>
 
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger"></label>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
 
-<nav id="globalnav" class="globalnav">
+    <nav id="globalnav" class="globalnav">
 
-    <div class="nav-content">
-        <img class="logo" src="images/logo.png" title="Amy Huang website makeover" alt="Amy Huang Co logo" />
-        <ul class="nav-list">
-            <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="our-works.html">Our Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+        <div class="nav-content">
+            <img class="logo" src="images/logo.png" title="Amy Huang website makeover" alt="Amy Huang Co logo" />
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="our-works.html">Our Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="content-body" class="content-body services">
+
+        <section class='slider autoplay '>
+            <input name="slider-anchor" id='slide1' type="radio" class='anchor slide' >
+            <input name="slider-anchor" id='slide2' type="radio" class='anchor slide' >
+            <input name="slider-anchor" id='slide3' type="radio" class='anchor slide' >
+            <input name="slider-anchor" id='play' type="radio" class='anchor' checked>
+
+            <div class="slider-content">
+                <a href="#" class="slider-link1">
+                    <figure>
+                        <img class='num0' class="logo" src="images/flower-lrg.jpg" alt="">
+                        <figcaption>
+                            <h3 class="slider-caption">Slide 1</h3>
+                        </figcaption>
+                    </figure>
+
+                </a>
+
+                <a href="#" class="slider-link2">
+                    <figure>
+                        <img class='num1' src="images/night-city-lrg.jpeg" alt="">
+                        <figcaption>
+                            <h3 class="slider-caption">Slide 2 </h3>
+                        </figcaption>
+                    </figure>
+
+                </a>
+
+                <a href="#" class="slider-link3">
+                    <figure>
+                        <img class='num2' src="images/desktop-lrg.jpeg" alt="">
+                        <figcaption>
+                            <h3 class="slider-caption">Slide 3</h3>
+                        </figcaption>
+                    </figure>
+
+                </a>
+
+            </div>
+
+            <div class='prev'>
+                <label class='num0' for='slide1'></label>
+                <label class='num1' for='slide2'></label>
+                <label class='num2' for='slide3'></label>
+            </div>
+            <div class='next'>
+                <label class='num0' for='slide1'></label>
+                <label class='num1' for='slide2'></label>
+                <label class='num2' for='slide3'></label>
+            </div>
+
+            <div class='bullets'>
+                <label class='num0' for='slide1'></label>
+                <label class='num1' for='slide2'></label>
+                <label class='num2' for='slide3'></label>
+            </div>
+        </section>
+
+        <section class="service-heading">
+            <h1 class="section-heading">Feature Service</h1>
+            <p class="description">Build your product or web application using Agile development process,
+                with high-end, low cost, web based IT infrastructure, <br>
+                that your customers can easily plug and play
+            </p>
+        </section>
+
+        <section id="service-section" class="service-section">
+
+            <ul class="service-lists">
+                <li class="service-tile">
+                    <a class="service-link" href="">
+                        <figure>
+                            <img  src="images/service-smll.jpeg" alt="image title"/>
+                        </figure>
+
+                        <figcaption>
+                            <h3 class="media-grid-headline">service</h3>
+                            <p class="media-grid-text">
+                                We create super awesome looking responsive web applications. We specialize in all aspects of web design and development.
+
+                            </p>
+                        </figcaption>
+                    </a>
+                </li>
+
+                <li class="service-tile">
+                    <a class="service-link" href="">
+                        <figure>
+                            <img src="images/service-smll.jpeg" alt="image title"/>
+                        </figure>
+
+                        <figcaption>
+                            <h3 class="media-grid-headline">service</h3>
+                            <p class="media-grid-text">
+                                We create super awesome looking responsive web applications. We specialize in all aspects of web design and development.
+
+                            </p>
+                        </figcaption>
+                    </a>
+                </li>
+
+                <li class="service-tile">
+                    <a class="service-link" href="">
+                        <figure>
+                            <img  src="images/service-smll.jpeg" alt="image title"/>
+                        </figure>
+
+                        <figcaption>
+                            <h3 class="media-grid-headline">service</h3>
+                            <p class="media-grid-text">
+                                We create super awesome looking responsive web applications. We specialize in all aspects of web design and development.
+
+                            </p>
+                        </figcaption>
+                    </a>
+                </li>
+
+
+            </ul>
+        </section>
+
+        <section id="core-expertise" class="core-expertise">
+            <div class="core-expertise-wrapper">
+                <h2 class="section-heading">Our Core Expertise</h2>
+
+                <div id="core-expertise-icons-list">
+                    <a href="/net-development-services" target="_blank" title=".NET Development Services"><span class="imagewrapper"><img alt=".NET Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/dotnet_md.png" /></span></a>
+                    <a href="/php-development-services"  target="_blank" title="PHP Development Services"><span class="imagewrapper"><img alt="PHP Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/phpmysql_md.png" /></span></a>
+                    <a href="/laravel-development-services" title="Laravel development services"><span class="imagewrapper"><img alt="Laravel development services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/laravel_md.png" /></span></a>
+                    <a href="java-development-services"  target="_blank" title="Java Development Services"><span class="imagewrapper"><img alt="Java Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/java_md.png" /></span></a>
+                    <a href="/apps-development-services" target="_blank" title="Mobile Application Development Services"><span class="imagewrapper"><img alt="Mobile Application Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/mobile_md.png" /></span></a>
+                    <a href="/angularjs-development-services" target="_blank" title="AngularJS"><span class="imagewrapper"><img alt="AngularJS" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/angular_md.png" /></span></a>
+                    <a href="/yii-development-services"  target="_blank" title="Yii Development Services"><span class="imagewrapper"><img alt="Yii Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/yii_md.png" /></span></a>
+                    <a href="/sharepoint-development-services" rel="nofollow" target="_blank" title="SharePoint Development Services"><span class="imagewrapper"><img alt="SharePoint Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/sharepoint_md.png" /></span></a>
+                    <a href="/zend-development-services"  target="_blank" title="Zend Development Services"><span class="imagewrapper"><img alt="Zend Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/zend_md.png" /></span></a>
+                    <a href="/joomla-development-services"  target="_blank" title="Joomla Development Services"><span class="imagewrapper"><img alt="Joomla Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/joomla_md.png" /></span></a>
+                    <a href="/magento-development-services" rel="nofollow" target="_blank" title="Magento Development Services"><span class="imagewrapper"><img alt="Magento Development Services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/magento_md.png" /></span></a>
+                    <a href="/orchard-development-services" rel="nofollow" target="_blank" title="Orchard development services"><span class="imagewrapper"><img alt="Orchard development services" class="nopreview" src="https://belitsoft.com/assets/images/tech-logos/orchard_md.png" /></span></a>
+
+                </div>
+            </div>
+        </section>
     </div>
-</nav>
 
-<section class='slider autoplay '>
-    <input name="slider-anchor" id='slide1' type="radio" class='anchor slide' >
-    <input name="slider-anchor" id='slide2' type="radio" class='anchor slide' >
-    <input name="slider-anchor" id='slide3' type="radio" class='anchor slide' >
-    <input name="slider-anchor" id='play' type="radio" class='anchor' checked>
+    <footer>
+        <div class="footer-content">
+            <ul class="social">
+                <li class="footer-link"><a href="/facebook"><span class="web-icons_facebook"></span></a></li>
+                <li class="footer-link"><a href="/facebook"><span class="web-icons_linkedin"></span></a></li>
+                <li class="footer-link"><a href="/facebook"><span class="web-icons_google"></span></a></li>
+                <li class="footer-link"><a href="/facebook"><span class="web-icons_twitter"></span></a></li>
+            </ul>
 
-    <div class="slider-content">
-        <a href="#" class="slider-link1">
-            <figure>
-                <img class='num0' class="logo" src="images/flower-lrg.jpg" alt="">
-                <figcaption>
-                    <h3 class="slider-caption">Slide 1</h3>
-                </figcaption>
-            </figure>
 
-        </a>
+            <ul class="footer-navigation">
+                <li class="footer-link"><a href="/home.html">Home</a></li>
+                <li class="footer-link"><a href="/about.html">About Us</a></li>
+                <li class="footer-link"><a href="/contact.html">Contact Us</a></li>
+                <li class="footer-link"><a href="/privacy.html">Privacy</a></li>
+                <li class="footer-link"><a href="/terms.html"> Terms & Conditions</a></li>
+                <li class="footer-link"><a href="/credit.html">Credits</a></li>
+                <li class="footer-link copy">@ 2016 AMYHCO</li>
+            </ul>
 
-        <a href="#" class="slider-link2">
-            <figure>
-                <img class='num1' src="images/night-city-lrg.jpeg" alt="">
-                <figcaption>
-                    <h3 class="slider-caption">Slide 2 </h3>
-                </figcaption>
-            </figure>
 
-        </a>
-
-        <a href="#" class="slider-link3">
-            <figure>
-                <img class='num2' src="images/desktop-lrg.jpeg" alt="">
-                <figcaption>
-                    <h3 class="slider-caption">Slide 3</h3>
-                </figcaption>
-            </figure>
-
-        </a>
-
-    </div>
-
-    <div class='prev'>
-        <label class='num0' for='slide1'></label>
-        <label class='num1' for='slide2'></label>
-        <label class='num2' for='slide3'></label>
-    </div>
-    <div class='next'>
-        <label class='num0' for='slide1'></label>
-        <label class='num1' for='slide2'></label>
-        <label class='num2' for='slide3'></label>
-    </div>
-
-    <div class='bullets'>
-        <label class='num0' for='slide1'></label>
-        <label class='num1' for='slide2'></label>
-        <label class='num2' for='slide3'></label>
-    </div>
-</section>
-
+        </div>
+    </footer>
 </body>
 
 </body>
